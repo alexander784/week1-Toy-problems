@@ -8,7 +8,7 @@ A simple program to calculate Students Grades
 <h5>Clone this project from Github.</h5>
   <h6>Using git clone command: git clone {link from Github}</h6>
 
-  Invoke the gradeCalculator function with the student's marks as an argument to get the corresponding grade.
+  Define the gradeCalculator function with the student's marks as an argument to get the corresponding grade.
    if (marks > 79){
         grade = "A";
     }else if (marks>= 60){
