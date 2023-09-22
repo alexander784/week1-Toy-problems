@@ -37,13 +37,14 @@ Invoke the gradeCalculator function with the student's marks as an argument to g
 
 Implemete Function
 <h2>Look at the JavaScript Grade Calculator Function:</h2>
+<br>
    <h3>Define Function</h3>
+
+   
 function calculateGrade(){
 
-    // input student marks
     let marks = parseFloat(prompt(`Enter student marks (between 0 and 100):`));
 
-// Declare the grade variable
     let grade; 
 
     // Check marks against Grade ranges and assign the corresponding Grade
