@@ -32,7 +32,7 @@ Invoke the gradeCalculator function with the student's marks as an argument to g
 
 Implemete Function
 Look at the JavaScript Grade Calculator Function:
-   // Define the function
+   <h2>Define Function</h2>
 function calculateGrade(){
 
     // input student marks
