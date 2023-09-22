@@ -14,18 +14,7 @@ A simple program to calculate Students Grades
        let marks = parseFloat(prompt(`Enter student marks (between 0 and 100):`));
 
   
-      if (marks > 79){
-        grade = "A";
-    }else if (marks>= 60){
-        grade = "B"
-    }else if (marks >= 50) {
-        grade = "C"
-    }else if(marks>= 40) {
-        grade ="D"
-
-    }else{
-        grade = "E"
-    }
+      
 
    <p>You  input student marks into an JavaScript function, and it will determine the relevant grades based on the following requirements: </p>
    
