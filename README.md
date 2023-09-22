@@ -8,7 +8,7 @@ A simple program to calculate Students Grades
 <h5>Clone this project from Github.</h5>
   <h6>Using git clone command: git clone {link from Github}</h6>
 
-   You  input student marks into an JavaScript function, and it will determine the relevant grades based on the following requirements:
+   <p>You  input student marks into an JavaScript function, and it will determine the relevant grades based on the following requirements: </p>
    
             A: Greater than 79
             B: 60 to 79
@@ -36,8 +36,8 @@ Invoke the gradeCalculator function with the student's marks as an argument to g
 
 
 Implemete Function
-Look at the JavaScript Grade Calculator Function:
-   <h2>Define Function</h2>
+<h2>Look at the JavaScript Grade Calculator Function:</h2>
+   <h3>Define Function</h3>
 function calculateGrade(){
 
     // input student marks
