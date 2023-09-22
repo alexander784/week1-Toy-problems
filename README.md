@@ -35,34 +35,32 @@ Invoke the gradeCalculator function with the student's marks as an argument to g
 
 
 
-Implemete Function
+Implement Function
 <h2>Look at the JavaScript Grade Calculator Function:</h2>
 <br>
    <h3>Define Function</h3>
 
-     function calculateGrade(){
+       function calculateGrade(){
 
-let marks = parseFloat(prompt(`Enter student marks (between 0 and 100):`));
+     let marks = parseFloat(prompt(`Enter student marks (between 0 and 100):`));
 
-let grade; 
+     let grade; 
 
-// Check marks against Grade ranges and assign the corresponding Grade
-if (marks > 79){
+    if (marks > 79){
     grade = "A";
-}else if (marks>= 60){
+     }else if (marks>= 60){
     grade = "B"
-}else if (marks >= 50) {
+    }else if (marks >= 50) {
     grade = "C"
-}else if(marks>= 40) {
+    }else if(marks>= 40) {
     grade ="D"
 
-}else{
+    }else{
     grade = "E"
-}
+    }
 
-// Output Calculated grade
 
-console.log(`The student's grade is: ${grade}`);
+     console.log(`The student's grade is: ${grade}`);
 
     }
 
