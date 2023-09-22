@@ -8,6 +8,8 @@ A simple program to calculate Students Grades
 <h5>Clone this project from Github.</h5>
   <h6>Using git clone command: git clone {link from Github}</h6>
 
+  <h2>Description</h2>
+
  <p>Define the gradeCalculator function with the student's marks as an argument to get the corresponding grade.</p>
   
         function calculateGrade(){
