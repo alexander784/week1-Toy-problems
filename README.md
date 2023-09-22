@@ -40,8 +40,7 @@ Implemete Function
 <br>
    <h3>Define Function</h3>
 
-   
-function calculateGrade(){
+     function calculateGrade(){
 
     let marks = parseFloat(prompt(`Enter student marks (between 0 and 100):`));
 
