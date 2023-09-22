@@ -1,6 +1,6 @@
 # week1-Toy-problems
 
-JAVASCRIPT GRADE CALCULATOR
+<h1>JAVASCRIPT GRADE CALCULATOR</h1>
 
 A simple program to calculate Students Grades 
 
@@ -10,7 +10,7 @@ A simple program to calculate Students Grades
             C: 50 to 59
             D: 40 to 49
             E: Less than 40
-Clone this project from Github.
+<h2>Clone this project from Github.</h2>
   Using git clone command: git clone {link from Github}
 Invoke the gradeCalculator function with the student's marks as an argument to get the corresponding grade.
    if (marks > 79){
@@ -66,7 +66,7 @@ calculateGrade();
 
 
 <h1>Author</h1>
-Your Name
-Feel free to customize this README as needed for your specific project and add any additional sections or information that may be relevant.
+Alexander Nyaga
+<h6>Feel free to customize this README as needed for your specific project and add any additional sections or information that may be relevant</h6>
 
 
