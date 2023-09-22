@@ -69,7 +69,7 @@ function calculateGrade(){
 
 
 
-// Invoke the function to calculate and display the grade
+<h3>Invoke the function to calculate and display the grade</h3>
 calculateGrade();
 
 
