@@ -5,8 +5,8 @@
 A simple program to calculate Students Grades 
 
 
-<h2>Clone this project from Github.</h2>
-  Using git clone command: git clone {link from Github}
+<h5>Clone this project from Github.</h5>
+  <h6>Using git clone command: git clone {link from Github}</h6>
 
    You  input student marks into an JavaScript function, and it will determine the relevant grades based on the following requirements:
    
