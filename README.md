@@ -13,14 +13,60 @@ A simple program to calculate Students Grades
 Clone this project from Github.
   Using git clone command: git clone {link from Github}
 Invoke the gradeCalculator function with the student's marks as an argument to get the corresponding grade.
+   if (marks > 79){
+        grade = "A";
+    }else if (marks>= 60){
+        grade = "B"
+    }else if (marks >= 50) {
+        grade = "C"
+    }else if(marks>= 40) {
+        grade ="D"
 
-![Call README](https://github.com/alexander784/week1-Toy-problems/assets/83186506/6d376581-85ff-496e-8a4a-d7c6f2062db9)
+    }else{
+        grade = "E"
+    }
 
 
 
 Implemete Function
 Look at the JavaScript Grade Calculator Function:
-![JavaScript README](https://github.com/alexander784/week1-Toy-problems/assets/83186506/813b5e77-6920-42e8-86b6-2b476277fceb)
+   // Define the function
+function calculateGrade(){
 
+    // input student marks
+    let marks = parseFloat(prompt(`Enter student marks (between 0 and 100):`));
+
+// Declare the grade variable
+    let grade; 
+
+    // Check marks against Grade ranges and assign the corresponding Grade
+    if (marks > 79){
+        grade = "A";
+    }else if (marks>= 60){
+        grade = "B"
+    }else if (marks >= 50) {
+        grade = "C"
+    }else if(marks>= 40) {
+        grade ="D"
+
+    }else{
+        grade = "E"
+    }
+
+    // Output Calculated grade
+
+    console.log(`The student's grade is: ${grade}`);
+}
+
+
+
+
+// Invoke the function to calculate and display the grade
+calculateGrade();
+
+
+<h1>Author</h1>
+Your Name
+Feel free to customize this README as needed for your specific project and add any additional sections or information that may be relevant.
 
 
