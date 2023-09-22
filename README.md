@@ -8,7 +8,7 @@ A simple program to calculate Students Grades
 <h5>Clone this project from Github.</h5>
   <h6>Using git clone command: git clone {link from Github}</h6>
 
-  Define the gradeCalculator function with the student's marks as an argument to get the corresponding grade.
+ <p>Define the gradeCalculator function with the student's marks as an argument to get the corresponding grade.</p>
   
         function calculateGrade(){
        let marks = parseFloat(prompt(`Enter student marks (between 0 and 100):`));
