@@ -27,7 +27,7 @@ console.log(`The student's grade is: ${grade}`);
 
 }
 
-<h1>Clone this Repository</h1>
+<h4>Clone this Repository</h4>
 <p>Clone this program from Github using the git clone command.
   git clone {Github link}
 
@@ -35,11 +35,11 @@ console.log(`The student's grade is: ${grade}`);
 
 <h1>Speed Detector</h1>
 
-<h1>Description</h1>
+<h3>Description</h3>
 <p>get the value of an input field with the speed id.The result of the getElementById() method is then converted to an integer using the parseInt() function and put to the speed variable.</p>
 
-<h1>Check out the Program</h1>
-const speedLimit = 70;
+<h1>Check out the Program code</h1>
+<ul>const speedLimit = 70;
 let demeritPoints = 0;
 const speedDifference = speed - speedLimit;
 if(speedDifference <= 0) {
@@ -51,4 +51,5 @@ if(speedDifference <= 0) {
         console.log("License suspended");
     }
 }
+</ul>
 
