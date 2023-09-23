@@ -39,12 +39,14 @@ console.log(`The student's grade is: ${grade}`);
 <p>get the value of an input field with the speed id.The result of the getElementById() method is then converted to an integer using the parseInt() function and put to the speed variable.</p>
 
 <h1>Check out the Program code</h1>
-<ul>const speedLimit = 70;
-let demeritPoints = 0;
-const speedDifference = speed - speedLimit;
-if(speedDifference <= 0) {
+<ul>
+<li>
+       const speedLimit = 70;
+      let demeritPoints = 0;
+      const speedDifference = speed - speedLimit;
+     if(speedDifference <= 0) {
     console.log("Ok");
-}else{
+    }else{
     demeritPoints = Math.floor(speedDifference / 5);
     console.log("Points", demeritPoints);
     if(demeritPoints > 12) {
@@ -52,4 +54,5 @@ if(speedDifference <= 0) {
     }
 }
 </ul>
+</li>
 
