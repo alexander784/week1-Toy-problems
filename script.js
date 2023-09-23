@@ -8,4 +8,9 @@ const speedDifference = speed - speedLimit;
 //Check whether speed is within the limit
 if(speedDifference <= 0) {
     console.log("Ok");
+}else{
+    //Calculation of demeritspoints
+    demeritPoints = Math.floor(speedDifference / 5);
+
+    console.log("Points", demeritPoints);
 }
