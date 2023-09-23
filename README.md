@@ -21,9 +21,8 @@ Alexander Nyaga
     }else{
     grade = "E"
     }
-   console.log(`The student's grade is: ${grade}`);
-
-    }
+    console.log(`The student's grade is: ${grade}`);
+     }
 
 <h4>Clone this Repository</h4>
 <p>Clone this program from Github using the git clone command.
