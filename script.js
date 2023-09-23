@@ -41,6 +41,13 @@ if(speedDifference <= 0) {
 
     console.log("Points", demeritPoints);
 
+    //condition to check if the license should be suspended or not
+    if(demeritPoints > 12) {
+        console.log("License suspended");
+    }
+}
+
+
 
 
     
