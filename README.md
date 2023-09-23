@@ -8,24 +8,22 @@ Alexander Nyaga
 
 <h1>Check out the function:</h1>
     function calculateGrade(){
-
     let Marks = parseFloat(prompt(`Enter student marks (between 0 and 100):`));
     let grade;
     if (marks > 79){
     grade = "A";
-   }else if (marks>= 60){
+    }else if (marks>= 60){
     grade = "B"
-   }else if (marks >= 50) {
+    }else if (marks >= 50) {
     grade = "C"
-   }else if(marks>= 40) {
+    }else if(marks>= 40) {
     grade ="D"
-
-   }else{
+    }else{
     grade = "E"
-   }
-  console.log(`The student's grade is: ${grade}`);
+    }
+   console.log(`The student's grade is: ${grade}`);
 
-}
+    }
 
 <h4>Clone this Repository</h4>
 <p>Clone this program from Github using the git clone command.
