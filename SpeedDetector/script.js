@@ -18,3 +18,6 @@ if(speedDifference <= 0) {
         console.log("License suspended");
     }
 }
+
+
+
