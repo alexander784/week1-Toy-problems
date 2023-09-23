@@ -21,7 +21,15 @@ if (marks > 79){
 // Output Calculated grade
 
 console.log(`The student's grade is: ${grade}`);
+
 }
+
+
+
+//SPEED DETECTOR.
+// Initialize the Variables
+const speedLimit = 70;
+let demeritPoints = 0;
 
 
 
