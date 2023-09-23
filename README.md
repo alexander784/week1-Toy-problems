@@ -7,23 +7,23 @@ Alexander Nyaga
 <p>The calculateGrade function determines the grade depending on the value of the marks input using a simple if-else condition. The textContent property is used to display the grade once it has been determined in the grade paragraph element.</p>
 
 <h1>Check out the function:</h1>
-function calculateGrade(){
+    function calculateGrade(){
 
     let Marks = parseFloat(prompt(`Enter student marks (between 0 and 100):`));
-let grade;
-if (marks > 79){
+    let grade;
+    if (marks > 79){
     grade = "A";
-}else if (marks>= 60){
+   }else if (marks>= 60){
     grade = "B"
-}else if (marks >= 50) {
+   }else if (marks >= 50) {
     grade = "C"
-}else if(marks>= 40) {
+   }else if(marks>= 40) {
     grade ="D"
 
-}else{
+   }else{
     grade = "E"
-}
-console.log(`The student's grade is: ${grade}`);
+   }
+  console.log(`The student's grade is: ${grade}`);
 
 }
 
@@ -39,8 +39,8 @@ console.log(`The student's grade is: ${grade}`);
 <p>get the value of an input field with the speed id.The result of the getElementById() method is then converted to an integer using the parseInt() function and put to the speed variable.</p>
 
 <h1>Check out the Program code</h1>
-<ul>
-<li>
+
+
        const speedLimit = 70;
       let demeritPoints = 0;
       const speedDifference = speed - speedLimit;
@@ -53,6 +53,4 @@ console.log(`The student's grade is: ${grade}`);
         console.log("License suspended");
     }
 }
-</ul>
-</li>
 
