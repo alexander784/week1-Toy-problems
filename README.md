@@ -7,6 +7,8 @@ Alexander Nyaga
 <p>The calculateGrade function determines the grade depending on the value of the marks input using a simple if-else condition. The textContent property is used to display the grade once it has been determined in the grade paragraph element.</p>
 
 <h1>Check out the function:</h1>
+
+
     function calculateGrade(){
     let Marks = parseFloat(prompt(`Enter student marks (between 0 and 100):`));
     let grade;
