@@ -18,7 +18,11 @@ if (marks > 79){
 }else{
     grade = "E"
 }
+// Output Calculated grade
 
+console.log(`The student's grade is: ${grade}`);
 }
+
+
 
     
