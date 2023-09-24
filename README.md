@@ -35,7 +35,7 @@ Alexander Nyaga
 <h1>Speed Detector</h1>
 
 <h3>Description</h3>
-<p>get the value of an input field with the speed id.The result of the getElementById() method is then converted to an integer using the parseInt() function and put to the speed variable.</p>
+<p>This speed detector program measures a driver's speed, assigns demerit points for speeding, and warns the driver that their license may be suspended if their demerit points is more than 12</p>
 
 <h1>Check out the Program code</h1>
 
