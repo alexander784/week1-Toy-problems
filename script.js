@@ -67,6 +67,11 @@ if(grossSalary <= 24000) {
     Payee = (0.1 * 24000) + (0.2 * 16000) + (0.3 *(grossSalary - 40000));
 }
 
+//NHIF  deductions
+
+let NHIF = 0.02;
+let NHIFDeductions = NHIFRate * grossSalary;
+ 
 
 
 
