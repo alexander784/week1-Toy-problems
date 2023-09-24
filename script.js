@@ -78,7 +78,13 @@ let nssfDeductions = nssfRate *grossSalary;
 
 // calculate net Salary
 let netSalary = grossSalary - Payee - NHIFDeductions - nssfDeductions;
+//output Results
 
+console.log(`Gross Salary: ${grossSalary}`);
+console.log(`Payee (Tax): ${payee}`);
+console.log(`NHIF Deductions: ${nhifDeductions}`);
+console.log(`NSSF Deductions: ${nssfDeductions}`);
+console.log(`Net Salary: ${netSalary}`);
 
  
 
