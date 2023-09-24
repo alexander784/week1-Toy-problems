@@ -48,6 +48,13 @@ if(speedDifference <= 0) {
 }
 
 
+//Net Salary Calculator 
+//initialize Variables
+let benefits = parseFloat(prompt("Enter benefits: "));
+let basicSalary = parseFloat(prompt("Enter basic salary: "));
+
+
+
 
 
     
