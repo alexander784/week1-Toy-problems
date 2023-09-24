@@ -62,15 +62,24 @@ if(grossSalary <= 24000) {
     Payee = 0.1 *grossSalary;
 
 }else if (grossSalary <= 40000) {
-    Payee = (0.1 * 24000) + (0.2*(grossSalary - 24000));
+    Payee = (0.1 * 24000) + (0.25*(grossSalary - 24000));
 }else {
-    Payee = (0.1 * 24000) + (0.2 * 16000) + (0.3 *(grossSalary - 40000));
+    Payee = (0.1 * 24000) + (0.25 * 16000) + (0.3 *(grossSalary - 40000));
 }
 
 //NHIF  deductions
 
 let NHIF = 0.02;
 let NHIFDeductions = NHIFRate * grossSalary;
+
+// nssf deductions
+let nssfRate = 0.12;
+let nssfDeductions = nssfRate *grossSalary;
+
+// calculate net Salary
+let netSalary = grossSalary - Payee - NHIFDeductions - nssfDeductions;
+
+
  
 
 
