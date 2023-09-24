@@ -51,5 +51,10 @@ Alexander Nyaga
     if(demeritPoints > 12) {
         console.log("License suspended");
     }
-}
+} 
+
+
+<h1>Net Salary Calculator </h1>
+<h1>Description</h1>
+<p>This JavaScript program utilizes a prompt to collect information regarding basic pay and benefits, then uses payee (tax) calculations to determine gross pay, payee (tax), NHIF deductions, NSSF deductions, and net pay. The results are then displayed in the console.</p>
 
