@@ -53,6 +53,14 @@ if(speedDifference <= 0) {
 let benefits = parseFloat(prompt("Enter benefits: "));
 let basicSalary = parseFloat(prompt("Enter basic salary: "));
 
+// Calculating gross Salary using glory salary formula
+let grossSalary = basicSalary + benefits;
+
+// Calculate Tax
+let Payee;
+
+
+
 
 
 
