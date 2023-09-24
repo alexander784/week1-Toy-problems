@@ -58,7 +58,14 @@ let grossSalary = basicSalary + benefits;
 
 // Calculate Tax
 let Payee;
+if(grossSalary <= 24000) {
+    Payee = 0.1 *grossSalary;
 
+}else if (grossSalary <= 40000) {
+    Payee = (0.1 * 24000) + (0.2*(grossSalary - 24000));
+}else {
+    Payee = (0.1 * 24000) + (0.2 * 16000) + (0.3 *(grossSalary - 40000));
+}
 
 
 
