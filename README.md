@@ -35,7 +35,7 @@ Alexander Nyaga
 <h1>Speed Detector</h1>
 
 <h3>Description</h3>
-<p>This speed detector program measures a driver's speed, assigns demerit points for speeding, and warns the driver that their license may be suspended if their demerit points is more than 12</p>
+<p>This speed detector program measures a driver's speed, assigns demerit points for speeding, and warns the driver that their license may be suspended if their demerit points is exceed 12</p>
 
 <h1>Check out the Program code</h1>
 
@@ -43,7 +43,7 @@ Alexander Nyaga
        const speedLimit = 70;
       let demeritPoints = 0;
       const speedDifference = speed - speedLimit;
-     if(speedDifference <= 0) {
+     if(speedDifference <= 70) {
     console.log("Ok");
     }else{
     demeritPoints = Math.floor(speedDifference / 5);
